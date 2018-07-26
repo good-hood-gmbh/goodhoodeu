@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Goodhood_DESK" transform="translate(-875.000000, -1065.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1280" height="1740"></rect>
+            <path d="M887.600859,1070.29713 C888.133047,1069.75497 888.133047,1068.94526 887.600859,1068.40662 C887.06867,1067.86446 886.268649,1067.86446 885.732982,1068.40662 L880.000653,1074.21546 L874.268323,1068.40662 C873.736135,1067.86446 872.936113,1067.86446 872.400447,1068.40662 C871.86478,1068.94878 871.868258,1069.75849 872.400447,1070.29713 L878.132776,1076.10597 L880.000653,1078 L881.868529,1076.10949 L887.600859,1070.29713 L887.600859,1070.29713 Z" id="Shape" fill="#A1A1A1" transform="translate(880.000000, 1073.000000) rotate(-90.000000) translate(-880.000000, -1073.000000) "></path>
+        </g>
+    </g>
+</svg>
