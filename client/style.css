@@ -189,7 +189,7 @@ a:link, a:visited, a:active {
   height: 60px;
 }
 
-.c-arrrow-logo {
+.c-arrow-logo {
   display: inline-block;
   background-image: url(./public/images/arrow.svg);
   background-size: cover;
