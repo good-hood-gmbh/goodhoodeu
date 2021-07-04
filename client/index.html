@@ -29,7 +29,15 @@
     <meta name="msapplication-TileImage" content="public/favicon/mstile-144x144.png">
     <meta name="msapplication-config" content="public/favicon/browserconfig.xml">
     <link rel="stylesheet" href="style.css">
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    <!-- Klaro integration -->
+    <link rel="stylesheet" href="public/klaro/v0.7/klaro.min.css">
+    <script defer type="application/javascript" src="public/klaro/goodhood.config.js"></script>
+    <script defer type="application/javascript" data-config="klaroConfig" src="public/klaro/v0.7/klaro-no-css.js"></script>
+    <!-- GTM with GA managed by Klaro CMP -->
+    <script type="text/plain"
+            data-type="application/javascript"
+            data-name="gtm">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -37,11 +45,6 @@
     </script>
   </head>
   <body>
-    <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMXBT7R"
-        height="0" width="0" style="display:none;visibility:hidden">
-      </iframe>
-    </noscript>
     <header>
       <div class="c-layout-header">
         <div class="c-layout-header_panel">
@@ -147,11 +150,14 @@
             Register court: County court Charlottenburg (Berlin) Registration number: HRB 168204 B | VAT-ID: DE300954608
           </p>
           <p class="c-layout-footer_spacing ">
-            Managing Directors: Till Behnke, Ina Remmers, Christian Vollmann | Responsible for content according to section 55 paragraph 2 Rundfunkstaatsvertrag (German Interstate Broadcasting Treaty): Till Behnke, Good Hood GmbH Köpenicker Straße 154, 10997 Berlin, Germany
+            Managing Directors: Till Behnke, Ina Remmers | Responsible for content according to section 55 paragraph 2 Rundfunkstaatsvertrag (German Interstate Broadcasting Treaty): Till Behnke, Good Hood GmbH Köpenicker Straße 154, 10997 Berlin, Germany
           </p>
           <p class="c-layout-footer_spacing ">
             Please note that we are neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration body.
           </p>
+          <div class="c-layout-footer_spacing ">
+            <a href="#" class="c-layout-footer_link" onclick="klaro.show();">Adjust data privacy settings / Datenschutzeinstellungen anpassen</a>
+          </div>
           <div class="c-layout-footer_logo">
             <a class="c-main-logo" href="https://www.goodhood.eu/" target="_blank">
               <span class="c-main_logo"></span>
